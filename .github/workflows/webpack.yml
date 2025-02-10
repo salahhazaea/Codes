@@ -24,6 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        npm install y
-        
+        npm install 
+        yes
         npx webpack
